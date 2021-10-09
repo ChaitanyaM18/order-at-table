@@ -75,7 +75,6 @@ class CartView(generic.TemplateView):
 
 
 def checkout(request):
-    print('hi')
     if request.method == 'POST':
         cart = json.loads(request.POST.get('cart'))
         price = request.POST.get('price_of_cart')

@@ -41,6 +41,8 @@
 	<link rel="stylesheet" href="{% static 'oats/css/owl.theme.default.min.css' %}">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="{% static 'oats/css/style.css' %}">
+	<!-- For the toasts -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
 
 	<!-- Modernizr JS -->
 	<script src="{% static 'oats/js/modernizr-2.6.2.min.js' %}"></script>
@@ -54,15 +56,15 @@
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<h1 id="colorlib-logo"><a href="index.html">Balay</a></h1>
+			<h1 id="colorlib-logo"><a href="index.html">Order From QR	</a></h1>
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
-					<li class="colorlib-active"><a href="index.html">Home</a></li>
-					<li><a href="/cart/" id="cart_button">Cart</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
+					<li><a href="{% url 'orders:categories' %}">MENU</a></li>
+					<li><a href="{% url 'orders:cart' %}" id="cart_button">Cart</a></li>
+					<li><a href="{% url 'orders:view_orders' %}">VIEW ORDERS</a></li>
+					<!-- <li  class="colorlib-active"><a href="services.html">Services</a></li>
 					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="contact.html">Contact</a></li> -->
 				</ul>
 			</nav>
 

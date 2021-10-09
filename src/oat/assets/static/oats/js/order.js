@@ -23,7 +23,6 @@ var last_valid_selection = null; //this is what restircts the user from choosing
 };
 
 function add_to_cart(info){
-  alert('hi');
   //info will be the stuff displayed in the reciept
   // item description as well as teh price
   display_notif("add to cart", info);
@@ -63,7 +62,7 @@ function display_notif(type, info="No info provided"){
   }
   switch (type){
     case "add to cart":
-      toastr.success(info.item_description + ': £' + info.price, 'Added to Cart');
+      toastr.success(info.item_description + ': ₹' + info.price, 'Added to Cart');
       break;
     case "remove from cart":
       toastr.warning("Successfully removed "+info+ " from cart");
@@ -91,13 +90,13 @@ function load_cart(){
       var item_price = row.insertCell(2);
       item_number.innerHTML = String(i+1);
       item_description.innerHTML = cart[i].item_description;
-      item_price.innerHTML = "£"+cart[i].price;
+      item_price.innerHTML = "₹"+cart[i].price;
 
       total += cart[i].price
     }
     total = Math.round(total * 100) / 100
     localStorage.setItem('total_price', total);
-    document.getElementById('total').innerHTML = "£"+localStorage.getItem("total_price")
+    document.getElementById('total').innerHTML = "₹"+localStorage.getItem("total_price")
 
 
     onRowClick("cart_body", function (row){
