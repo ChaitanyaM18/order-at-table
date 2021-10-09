@@ -40,7 +40,7 @@
                   {% endfor %}
                 </ul>
               </td>
-              <td>£{{row.price}}</td>
+              <td>₹{{row.price}}</td>
             </tr>
           {% endfor %}
         </tbody>
@@ -48,7 +48,10 @@
           </div>
         </div>
       </div>
+      <a href="{% url 'orders:categories'%}" class="btn btn-primary">Order More</a>
+    <a href="{% url 'orders:exit'%}" class="btn btn-primary">No Thanks</a>
     </div>
+    
 {% endblock %}
 
 {% block page_specific_js %}

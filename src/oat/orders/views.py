@@ -86,6 +86,7 @@ def checkout(request):
         order.save() #save row entry in database
 
         response_data['result'] = 'Order Recieved!'
+        # del request.session['table_name']
 
         return HttpResponse(
             json.dumps(response_data),
@@ -99,12 +100,22 @@ def checkout(request):
 
 
 def view_orders(request):
-    if request.user.is_superuser:
-        #make a request for all the orders in the database
-        rows = UserOrder.objects.all().order_by('-time_of_order')
-        #orders.append(row.order[1:-1].split(","))
-
-        return render(request, "orders/orders.html", context = {"rows":rows})
+    if not request.session["table_name"]:
+        return redirect('/')
     else:
-        rows = UserOrder.objects.all().filter(username = request.session['table_name']).order_by('-time_of_order')
-        return render(request, "orders/orders.html", context = {"rows":rows})
+        if request.user.is_superuser:
+            #make a request for all the orders in the database
+            rows = UserOrder.objects.all().order_by('-time_of_order')
+            #orders.append(row.order[1:-1].split(","))
+
+            return render(request, "orders/orders.html", context = {"rows":rows})
+        else:
+            rows = UserOrder.objects.all().filter(username = request.session['table_name']).order_by('-time_of_order')
+            return render(request, "orders/orders.html", context = {"rows":rows})
+
+def exit(request):
+    if 'table_name' not in request.session["table_name"]:
+        return redirect('/')
+    else:
+        del request.session['table_name']
+    return render(request,'orders/orders.html')
