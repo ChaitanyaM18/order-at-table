@@ -1,0 +1,41 @@
+{% extends 'base_dashboard.html' %}
+
+{% load widget_tweaks %}
+{% load static %}
+{% block content %}
+<div class="content-wrapper">
+  <div class="row">
+    <div class="col-12 grid-margin stretch-card">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Create Category</h4>
+          <!-- <p class="card-description">
+            Use the <code>.form-inline</code> class to display a series of labels, form controls, and buttons on a single horizontal row
+          </p> -->
+          <form class="forms-sample" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-group">
+              {% render_field form.category_title class="form-control" placeholder="Enter Category Name" %}
+              {{ form.category_title.errors }}
+            </div>
+            <div class="form-group">
+              <label>File upload</label>
+              <div class="input-group col-xs-12">
+                {% render_field form.category_image class="file-upload-default" placeholder="Enter Category Name" %}
+                {{ form.category_image.errors }}
+                <input type="text" class="form-control file-upload-info" disabled placeholder="Upload Image">
+                <span class="input-group-append">
+                  <button class="file-upload-browse btn btn-primary" type="button">Upload</button>
+                </span>
+              </div>
+            </div>
+            <div class="form-check mx-sm-2">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Create Category</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

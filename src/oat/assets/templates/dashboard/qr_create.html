@@ -1,0 +1,28 @@
+{% extends 'base_dashboard.html' %}
+
+
+{% load static %}
+{% block content %}
+<div class="content-wrapper">
+  <div class="row">
+    <div class="col-12 grid-margin stretch-card">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Generate QR</h4>
+          <!-- <p class="card-description">
+            Use the <code>.form-inline</code> class to display a series of labels, form controls, and buttons on a single horizontal row
+          </p> -->
+          <form class="form-inline" action="{% url 'dashboard:generateQr' %}" method="post">
+            {% csrf_token %}
+            <input type="number" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" name="start_" placeholder="Table No. From">
+            <input type="number" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" name="end_" placeholder="Table No. To">
+            <div class="form-check mx-sm-2">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Generate QR</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% load widget_tweaks %}
+{% block content %}
+
+<div id="colorlib-main">
+			<div class="colorlib-blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Category</span>
+							<h2 class="colorlib-heading">Order Food</h2>
+						</div>
+					</div>
+          {% for obj in category_list %}
+          {% if forloop.first or forloop.counter0|divisibleby:3 %}
+					<div class="row">
+            {% endif %}
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="{% url 'orders:menu_list' obj.id %}" class="blog-img"><img src="{{obj.category_image.url}}" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<h3><a href="{% url 'orders:menu_list' obj.id %}">{{obj.category_title}}</a></h3>
+									<!-- <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p> -->
+								</div>
+							</div>
+						</div>
+            {% if forloop.last or forloop.counter|divisibleby:3 %}
+					 </div>
+          {% endif %}
+          {% endfor %}
+
+					<!-- <div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<ul class="pagination">
+								<li class="disabled"><a href="#">&laquo;</a></li>
+								<li class="active"><a href="#">1</a></li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#">4</a></li>
+								<li><a href="#">&raquo;</a></li>
+							</ul>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Skydash Admin</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="{% static 'custom-admin/css/feather.css' %}">
+  <link rel="stylesheet" href="{% static 'custom-admin/css/themify-icons.css' %}">
+  <link rel="stylesheet" href="{% static 'custom-admin/css/vendor.bundle.base.css' %}">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="{% static 'custom-admin/css/style.css' %}">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="{% static 'custom-admin/images/favicon.png' %}" />
+</head>
+
+<body>
+  {% block content %}
+  {% endblock %}
+
+  <!-- plugins:js -->
+  <script src="{% static 'custom-admin/js/vendor.bundle.base.js' %}"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="{% static 'custom-admin/js/off-canvas.js' %}"></script>
+  <script src="{% static 'custom-admin/js/hoverable-collapse.js' %}"></script>
+  <script src="{% static 'custom-admin/js/template.js' %}"></script>
+  <script src="{% static 'custom-admin/js/settings.js' %}"></script>
+  <script src="{% static 'custom-admin/js/todolist.js' %}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+  {% block scripts_page_specific %}
+  {% endblock %}
+  <!-- endinject -->
+  </body>
+
+  </html>

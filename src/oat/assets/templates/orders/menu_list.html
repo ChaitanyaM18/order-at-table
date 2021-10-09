@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% load widget_tweaks %}
+{% block content %}
+
+<div id="colorlib-main">
+			<div class="colorlib-blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Order Food</span>
+							<h2 class="colorlib-heading">{{category_list.category_title}}</h2>
+						</div>
+            <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Dish Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for obj in menu_list %}
+                  <tr>
+                    <th scope="row">{{forloop.counter}}</th>
+                    <td>{{obj.dish_name}}</td>
+                    <td>{{obj.price}}</td>
+                    <td>
+                      <button type="button" class="btn btn-primary add_to_cart"  onclick="add_to_cart({item_description: '{{obj.dish_name}}', price: {{obj.price}}});"><strong>Add Item</strong>
+                      </button></td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+
+					</div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
+{% block page_specific_js %}
+{% endblock %}

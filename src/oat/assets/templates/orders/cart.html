@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% load widget_tweaks %}
+{% block content %}
+<div id="colorlib-main">
+  <div class="colorlib-blog">
+    <div class="colorlib-narrow-content">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+          <span class="heading-meta" id="cart_heading"></span>
+          <h2 class="colorlib-heading"> Order Detail</h2>
+        </div>
+        <div class="row justify-content-center">
+          <table class="table">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Item Description</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody id="cart_body">
+            </tbody>
+          </table>
+
+
+          <h3>Total: <span class="badge badge-primary" id="total"></span></h3>
+        </div>
+
+        <div class="row justify-content-center">
+          <button id="checkout_button" type="button" class="btn btn-success" onclick="checkout()">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block page_specific_js %}
+{% endblock %}
