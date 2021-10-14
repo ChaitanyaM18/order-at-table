@@ -11,6 +11,7 @@ path('menu_list/<pk>/', views.MenuList.as_view(), name='menu_list'),
 path('cart/', views.CartView.as_view(), name='cart'),
 path('checkout/', views.checkout, name='checkout'),
 path("view-orders/", views.view_orders, name="view_orders"),
-path("exit/", views.view_orders, name="exit"),
+path("exit/", views.exit, name="exit"),
+path('reviews/', views.GetUserReview.as_view(), name='reviews'),
 
 ]

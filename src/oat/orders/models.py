@@ -27,3 +27,10 @@ class UserOrder(models.Model):
     def __str__(self):
         #overriding the string method to get a good representation of it in string format
         return f"Order placed by  : {self.username} on {self.time_of_order.date()} at {self.time_of_order.time().strftime('%H:%M:%S')}"
+
+class GetUserReview(models.Model):
+    ratings = models.CharField(max_length=5)
+    comments = models.TextField()
+
+    def __str__(self):
+        return f"{self.ratings}"

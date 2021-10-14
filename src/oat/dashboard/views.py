@@ -97,7 +97,7 @@ def generateQr(request):
             box_size=10,
             border=4,
             )
-            qr.add_data("http://127.0.0.1:8000/?"+qr_argument+"_"+str(item))
+            qr.add_data("http://127.0.0.1:8000/?table="+qr_argument+"_"+str(item))
             qr.make(fit=True)
             img = qr.make_image(fill_color="black", back_color="white")
             img.save('./assets/media/qr_codes/'+qr_argument+"_"+str(item)+".png")

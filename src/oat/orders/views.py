@@ -98,20 +98,22 @@ def checkout(request):
             content_type="application/json"
         )
 
-
 def view_orders(request):
-    if not request.session["table_name"]:
-        return redirect('/')
-    else:
-        if request.user.is_superuser:
-            #make a request for all the orders in the database
-            rows = UserOrder.objects.all().order_by('-time_of_order')
-            #orders.append(row.order[1:-1].split(","))
-
-            return render(request, "orders/orders.html", context = {"rows":rows})
+    try:
+        if not request.session["table_name"]:
+            return redirect('/')
         else:
-            rows = UserOrder.objects.all().filter(username = request.session['table_name']).order_by('-time_of_order')
-            return render(request, "orders/orders.html", context = {"rows":rows})
+            if request.user.is_superuser:
+                #make a request for all the orders in the database
+                rows = UserOrder.objects.all().order_by('-time_of_order')
+                #orders.append(row.order[1:-1].split(","))
+
+                return render(request, "orders/orders.html", context = {"rows":rows})
+            else:
+                rows = UserOrder.objects.all().filter(username = request.session['table_name']).order_by('-time_of_order')
+                return render(request, "orders/orders.html", context = {"rows":rows})
+    except:
+        return redirect('/')
 
 def exit(request):
     if 'table_name' not in request.session["table_name"]:
@@ -119,3 +121,16 @@ def exit(request):
     else:
         del request.session['table_name']
     return render(request,'orders/orders.html')
+
+
+class GetUserReview(generic.CreateView):
+    template_name = "orders/user_review.html"
+    form_class = forms.UserReviewForm
+    success_url = '/'
+    success_message = "Sucess"
+
+    def form_valid(self, form):
+        print(form.cleaned_data)
+        form.save()
+        del self.request.session['table_name']
+        return super(GetUserReview, self).form_valid(form)
