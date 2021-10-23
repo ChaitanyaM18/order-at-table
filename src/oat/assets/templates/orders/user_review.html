@@ -19,11 +19,18 @@
                 <form action="" method="post">
                   {% csrf_token %}
                   <div class="form-group">
-                    {% render_field form.ratings class="form-control" placeholder="Ratings" %}
-                    {{ form.ratings.errors }}
+                    <!-- {% render_field form.ratings class="form-control" placeholder="Ratings" %}
+                    {{ form.ratings.errors }} -->
+                    <div class="rating rating2">
+                    	<a href="#5" title="Give 5 stars" data-value="5">★</a>
+                    	<a href="#4" title="Give 4 stars" data-value="4">★</a>
+                    	<a href="#3" title="Give 3 stars" data-value="3">★</a>
+                    	<a href="#2" title="Give 2 stars" data-value="2">★</a>
+                    	<a href="#1" title="Give 1 star" data-value="1">★</a>
+                    </div>
                   </div>
                   <div class="form-group">
-                    {% render_field form.comments class="form-control" placeholder="Comments" %}
+                    {% render_field form.comments class="form-control" placeholder="Comments"  rows="2"%}
                     {{ form.comments.errors }}
                   </div>
                   <div class="form-group">
@@ -31,11 +38,38 @@
                   </div>
                 </form>
               </div>
-
             </div>
+          </div>
+          <div class="col-md-5">
+            <video id="vid" autoplay="" loop="" controls muted="unmuted" playsinline="playsinline" style="width: 100%;" type="video/mp4"><source src="{{video_list.video_or_image.url}}" type="video/mp4"> Your browser does not support HTML video.</video>
           </div>
         </div>
       </div>
     </div>
   </div>
+{% endblock %}
+
+{% block page_specific_js %}
+<script type="text/javascript">
+$(".rating a").on('click', function(e){
+  var comments = $('#id_comments').val()
+  alert(comments);
+  let value = $(this).data('value');
+  alert(value);
+ $.ajax({
+    url: "/ratings/",
+    type: 'POST',
+    data: {
+      'rating': value,
+      'comments': comments,
+      'csrfmiddlewaretoken': '{{ csrf_token }}'
+
+    },
+    success: function (d){
+      alert('Hi');
+     // some processing
+    }
+ })
+});
+</script>
 {% endblock %}

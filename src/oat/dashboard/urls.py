@@ -17,5 +17,9 @@ urlpatterns = [
     path('menu-list/', views.MenuList.as_view(), name='menu_list'),
     path('menu-update/<pk>/', views.UpdateMenu.as_view(), name='menu_update'),
     path('menu-delete/<pk>/', views.DeleteMenu, name="menu_delete"),
-    path("genarate-qr/", views.generateQr, name="generateQr")
+    path("genarate-qr/", views.generateQr, name="generateQr"),
+    path('current-order-list/', views.CurrentOrderList.as_view(), name='current_list'),
+    path('reviews-list/', views.UserViewList.as_view(), name='review_list'),
+    path('complete-order/<int:pk>/', views.CompleteOrder, name='complete_order'),
+
 ]

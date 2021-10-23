@@ -12,6 +12,7 @@ path('cart/', views.CartView.as_view(), name='cart'),
 path('checkout/', views.checkout, name='checkout'),
 path("view-orders/", views.view_orders, name="view_orders"),
 path("exit/", views.exit, name="exit"),
-path('reviews/', views.GetUserReview.as_view(), name='reviews'),
+path('ratings/', views.GetUserRatings, name='ratings'),
+path('reviews/', views.GetUserReviews.as_view(), name='reviews'),
 
 ]

@@ -1,0 +1,57 @@
+{% extends 'base_dashboard.html' %}
+{% load static %}
+{% load custom_tags %}
+
+{% block content %}
+<div class="content-wrapper">
+  <div class="row">
+    <div class="col-12 grid-margin stretch-card">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Orders Table</h4>
+          <p class="card-description d-none">
+            Add class <code>.table</code>
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Table No:</th>
+                  <th>Time of Order:</th>
+                  <th>Orders</th>
+                  <th>Price</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for obj in menu_list %}
+                <tr>
+                  <td>{{obj.username}}</td>
+                  <td>{{obj.time_of_order}}</td>
+                  <td>
+                    <ul>
+                      {% for item in obj.order|format_cart %}
+                        <li>{{item|format_cart_item}}</li>
+                      {% endfor %}
+                    </ul>
+                  </td>
+                  <td>{{obj.price}}</td>
+                  {% if obj.status == 'completed' %}
+                  <td><label class="badge badge-success">Completed</label></td>
+                  {% elif obj.status == 'processing' %}
+                  <td><label class="badge badge-warning">In progress</label></td>
+                  {% elif obj.status == 'pending' %}
+                  <td><a href="{% url 'dashboard:complete_order' pk=obj.id %}"><label class="badge badge-danger">Pending for Payment</label></a></td>
+                  {% else %}
+                  {% endif %}
+                </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

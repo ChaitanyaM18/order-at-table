@@ -9701,3 +9701,1458 @@ ValueError: The view orders.views.view_orders didn't return an HttpResponse obje
 [15/Oct/2021 00:03:26] INFO [django.server:161] "GET /admin/orders/getuserreview/ HTTP/1.1" 200 9114
 [15/Oct/2021 00:03:26] INFO [django.server:161] "GET /admin/jsi18n/ HTTP/1.1" 200 3195
 [15/Oct/2021 00:03:44] INFO [django.server:161] "GET /dashboard/qr-list/ HTTP/1.1" 200 14641
+[23/Oct/2021 12:05:50] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/flexslider.css HTTP/1.1" 200 6864
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/fonts/flaticon/font/flaticon.css HTTP/1.1" 304 0
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/icomoon.css HTTP/1.1" 200 28702
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/owl.theme.default.min.css HTTP/1.1" 304 0
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/owl.carousel.min.css HTTP/1.1" 304 0
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 200 34759
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/bootstrap.css HTTP/1.1" 200 134656
+[23/Oct/2021 12:12:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/css/animate.css HTTP/1.1" 200 71552
+[23/Oct/2021 12:12:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/js/jquery.min.js HTTP/1.1" 200 84380
+[23/Oct/2021 12:12:01] INFO [django.server:154] "GET /static/oats/js/bootstrap.min.js HTTP/1.1" 200 36816
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/jquery.flexslider-min.js HTTP/1.1" 200 22342
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/owl.carousel.min.js HTTP/1.1" 200 40401
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/main.js HTTP/1.1" 200 5346
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 200 6063
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/jquery.countTo.js HTTP/1.1" 304 0
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/js/sticky-kit.min.js HTTP/1.1" 304 0
+[23/Oct/2021 12:12:02] INFO [django.server:154] "GET /static/oats/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 155564
+[23/Oct/2021 12:12:02] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 12:12:02] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3825
+[23/Oct/2021 12:12:08] INFO [django.server:154] "GET /?table=table5 HTTP/1.1" 200 6040
+[23/Oct/2021 12:12:08] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:08] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:12:21] INFO [django.server:154] "POST /?table=table5 HTTP/1.1" 302 0
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 12:12:21] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:12:21] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/people-say-no-to-non-veg.jpg HTTP/1.1" 200 51727
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/vegetable-soup-500x375_VBfctxI.jpg HTTP/1.1" 200 68620
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/veg-kadai-2-500x500.jpg HTTP/1.1" 200 66238
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/istockphoto-1083487948-612x612.jpg HTTP/1.1" 200 62115
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/download.jpeg HTTP/1.1" 200 15595
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/75356205.jpeg HTTP/1.1" 200 155407
+[23/Oct/2021 12:12:21] INFO [django.server:154] "GET /media/uploads/category/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 200 1287553
+[23/Oct/2021 12:12:29] INFO [django.server:154] "GET /menu_list/5/ HTTP/1.1" 200 5095
+[23/Oct/2021 12:12:29] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:29] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:12:35] INFO [django.server:154] "GET /menu_list/9/ HTTP/1.1" 200 5925
+[23/Oct/2021 12:12:35] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:35] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:12:47] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 12:12:47] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:47] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:12:48] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 12:12:53] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 12:12:56] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 5674
+[23/Oct/2021 12:12:57] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:12:57] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:13:03] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 12:13:03] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:13:03] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:13:14] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 5674
+[23/Oct/2021 12:13:14] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:13:14] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:13:19] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 5818
+[23/Oct/2021 12:13:19] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:13:19] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:15:01] INFO [django.server:154] "POST /reviews/ HTTP/1.1" 302 0
+[23/Oct/2021 12:15:01] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 12:15:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:15:01] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 12:15:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:17:05] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 302 0
+[23/Oct/2021 12:17:05] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 12:17:05] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:17:05] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:05] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:17:08] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 302 0
+[23/Oct/2021 12:17:08] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 12:17:09] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:17:09] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:17:47] INFO [django.server:154] "GET /dashboard/ HTTP/1.1" 200 38844
+[23/Oct/2021 12:17:47] INFO [django.server:154] "GET /static/custom-admin/css/vendor.bundle.base.css HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/css/feather.css HTTP/1.1" 200 7232
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/css/themify-icons.css HTTP/1.1" 200 17574
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/css/dataTables.bootstrap4.css HTTP/1.1" 200 5888
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/select.dataTables.min.css HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/dataTables.select.min.js HTTP/1.1" 200 12550
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/Chart.min.js HTTP/1.1" 200 173077
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/css/style.css HTTP/1.1" 200 1113362
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/off-canvas.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/vendor.bundle.base.js HTTP/1.1" 200 193640
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/dataTables.bootstrap4.js HTTP/1.1" 200 4706
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/jquery.dataTables.js HTTP/1.1" 200 450276
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/settings.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/todolist.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/Chart.roundedBarCharts.js HTTP/1.1" 200 5951
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/file-upload.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/hoverable-collapse.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/dashboard.js HTTP/1.1" 200 23994
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/js/template.js HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/logo-mini.svg HTTP/1.1" 304 0
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/logo.svg HTTP/1.1" 200 7525
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/faces/face3.jpg HTTP/1.1" 200 15550
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/dashboard/people.svg HTTP/1.1" 200 53727
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/faces/face1.jpg HTTP/1.1" 200 12977
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/faces/face28.jpg HTTP/1.1" 200 21120
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/fonts/feather-webfont.woff HTTP/1.1" 200 12936
+[23/Oct/2021 12:17:48] WARNING [django.request:228] Not Found: /dashboard/js/data.txt
+[23/Oct/2021 12:17:48] WARNING [django.server:154] "GET /dashboard/js/data.txt?_=1634971668791 HTTP/1.1" 404 6061
+[23/Oct/2021 12:17:48] INFO [django.server:154] "GET /static/custom-admin/images/faces/face2.jpg HTTP/1.1" 200 13360
+[23/Oct/2021 12:17:49] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-Regular.woff2 HTTP/1.1" 200 55348
+[23/Oct/2021 12:17:49] INFO [django.server:154] "GET /static/custom-admin/images/faces/face4.jpg HTTP/1.1" 200 11728
+[23/Oct/2021 12:17:49] INFO [django.server:154] "GET /static/custom-admin/images/faces/face5.jpg HTTP/1.1" 200 10862
+[23/Oct/2021 12:17:49] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-SemiBold.woff2 HTTP/1.1" 200 56088
+[23/Oct/2021 12:17:49] INFO [django.server:154] "GET /static/custom-admin/fonts/themify.woff HTTP/1.1" 200 56108
+[23/Oct/2021 12:17:49] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-Bold.woff2 HTTP/1.1" 200 55308
+[23/Oct/2021 12:17:51] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 304 0
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /dashboard/qr-list/ HTTP/1.1" 200 14641
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_2.png HTTP/1.1" 200 667
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_4.png HTTP/1.1" 200 681
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_3.png HTTP/1.1" 200 699
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_7.png HTTP/1.1" 200 675
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_1.png HTTP/1.1" 200 713
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_8.png HTTP/1.1" 200 698
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_9.png HTTP/1.1" 200 738
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_10.png HTTP/1.1" 200 700
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_11.png HTTP/1.1" 200 717
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_12.png HTTP/1.1" 200 673
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_5.png HTTP/1.1" 200 699
+[23/Oct/2021 12:17:55] INFO [django.server:154] "GET /media/qr_codes/table_6.png HTTP/1.1" 200 714
+[23/Oct/2021 12:18:01] INFO [django.server:154] "GET /dashboard/create-category/ HTTP/1.1" 200 10550
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /dashboard/category-list/ HTTP/1.1" 200 13867
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/vegetable-soup-500x375_VBfctxI.jpg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/people-say-no-to-non-veg.jpg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/download.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/istockphoto-1083487948-612x612.jpg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/veg-kadai-2-500x500.jpg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:04] INFO [django.server:154] "GET /media/uploads/category/75356205.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /dashboard/category-list/ HTTP/1.1" 200 13867
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/css/feather.css HTTP/1.1" 200 7232
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/css/vendor.bundle.base.css HTTP/1.1" 200 2598
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/select.dataTables.min.css HTTP/1.1" 200 3917
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/css/dataTables.bootstrap4.css HTTP/1.1" 200 5888
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/css/style.css HTTP/1.1" 200 1113362
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/images/logo.svg HTTP/1.1" 200 7525
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/css/themify-icons.css HTTP/1.1" 200 17574
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/vendor.bundle.base.js HTTP/1.1" 200 193640
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/dataTables.select.min.js HTTP/1.1" 200 12550
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/dataTables.bootstrap4.js HTTP/1.1" 200 4706
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/jquery.dataTables.js HTTP/1.1" 200 450276
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/Chart.min.js HTTP/1.1" 200 173077
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/off-canvas.js HTTP/1.1" 200 185
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/hoverable-collapse.js HTTP/1.1" 200 806
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/template.js HTTP/1.1" 200 3880
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/settings.js HTTP/1.1" 200 2954
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/todolist.js HTTP/1.1" 200 952
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/dashboard.js HTTP/1.1" 200 23994
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/Chart.roundedBarCharts.js HTTP/1.1" 200 5951
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/js/file-upload.js HTTP/1.1" 200 398
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/images/faces/face28.jpg HTTP/1.1" 200 21120
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/fonts/feather-webfont.woff HTTP/1.1" 200 12936
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-Regular.woff2 HTTP/1.1" 200 55348
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/fonts/themify.woff HTTP/1.1" 200 56108
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-SemiBold.woff2 HTTP/1.1" 200 56088
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-Bold.woff2 HTTP/1.1" 200 55308
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/images/logo-mini.svg HTTP/1.1" 200 2001
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/75356205.jpeg HTTP/1.1" 200 155407
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/people-say-no-to-non-veg.jpg HTTP/1.1" 200 51727
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/vegetable-soup-500x375_VBfctxI.jpg HTTP/1.1" 200 68620
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/istockphoto-1083487948-612x612.jpg HTTP/1.1" 200 62115
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/download.jpeg HTTP/1.1" 200 15595
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 200 1287553
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /media/uploads/category/veg-kadai-2-500x500.jpg HTTP/1.1" 200 66238
+[23/Oct/2021 12:18:08] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:18:19] INFO [django.server:154] "GET /dashboard/menu-list/ HTTP/1.1" 200 13925
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/default.jpg HTTP/1.1" 200 10994
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/vegetable-soup-500x375_5nnQjny.jpg HTTP/1.1" 200 68620
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/vegetable-soup-500x375_o7Z8mq2.jpg HTTP/1.1" 200 68620
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/people-say-no-to-non-veg.jpg HTTP/1.1" 200 51727
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 200 1287553
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/istockphoto-1083487948-612x612.jpg HTTP/1.1" 200 62115
+[23/Oct/2021 12:18:20] INFO [django.server:154] "GET /media/uploads/menu/media_gallery-2017-05-15-13-1_3dcb38710a40583ef0c3ff462f8bf80e.jpeg HTTP/1.1" 200 52122
+[23/Oct/2021 12:18:24] INFO [django.server:154] "GET /dashboard/create-menu/ HTTP/1.1" 200 11613
+[23/Oct/2021 12:24:20] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 12:24:20] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 12:24:20] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 12:24:20] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 12:24:20] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 12:24:20] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3825
+[23/Oct/2021 12:26:40] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 12:26:41] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 12:27:51] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/urls.py changed, reloading.
+[23/Oct/2021 12:27:51] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 12:34:17] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 12:36:00] INFO [django.server:154] "GET /dashboard/ HTTP/1.1" 200 39529
+[23/Oct/2021 12:36:01] INFO [django.server:154] "GET /dashboard/current-order-list HTTP/1.1" 301 0
+[23/Oct/2021 12:36:01] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 11417
+[23/Oct/2021 12:36:02] INFO [django.server:154] "GET /static/custom-admin/fonts/Nunito/Nunito-Light.woff2 HTTP/1.1" 200 54280
+[23/Oct/2021 12:36:20] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 11424
+[23/Oct/2021 12:36:20] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:36:29] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 11422
+[23/Oct/2021 12:36:29] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:37:09] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/urls.py changed, reloading.
+[23/Oct/2021 12:37:09] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 12:38:56] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 12:38:56] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 12:41:25] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:41:25] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:43:29] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14598
+[23/Oct/2021 12:43:29] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:46:31] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13099
+[23/Oct/2021 12:46:32] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:47:30] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14590
+[23/Oct/2021 12:47:31] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:47:54] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14590
+[23/Oct/2021 12:47:54] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:47:56] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14590
+[23/Oct/2021 12:47:56] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:47:56] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14590
+[23/Oct/2021 12:47:56] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:47:56] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14590
+[23/Oct/2021 12:47:56] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:50:16] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13396
+[23/Oct/2021 12:50:17] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:50:33] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:50:34] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:50:45] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14082
+[23/Oct/2021 12:50:45] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:51:04] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14082
+[23/Oct/2021 12:51:04] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:51:08] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:51:08] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:52:45] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:52:46] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:52:48] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:52:49] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:52:57] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:52:57] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:53:06] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 12:53:06] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 12:53:26] ERROR [django.request:228] Internal Server Error: /dashboard/current-order-list/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/defaulttags.py", line 811, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 657, in __init__
+    filter_func = parser.find_filter(filter_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 569, in find_filter
+    raise TemplateSyntaxError("Invalid filter: '%s'" % filter_name)
+django.template.exceptions.TemplateSyntaxError: Invalid filter: 'split'
+[23/Oct/2021 12:53:26] ERROR [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 500 226975
+[23/Oct/2021 13:01:38] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:01:52] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:01:52] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:02:08] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:02:12] ERROR [django.request:228] Internal Server Error: /dashboard/current-order-list/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 143, in _get_response
+    response = response.render()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/response.py", line 106, in render
+    self.content = self.rendered_content
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/response.py", line 81, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/response.py", line 63, in resolve_template
+    return select_template(template, using=self.using)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loader.py", line 42, in select_template
+    return engine.get_template(template_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/backends/django.py", line 34, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/engine.py", line 143, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/engine.py", line 125, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loaders/base.py", line 30, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 156, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 194, in compile_nodelist
+    return parser.parse()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loader_tags.py", line 266, in do_extends
+    nodelist = parser.parse()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/loader_tags.py", line 209, in do_block
+    nodelist = parser.parse(('endblock',))
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 478, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 476, in parse
+    compiled_result = compile_func(self, token)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/defaulttags.py", line 811, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 449, in parse
+    raise self.error(token, e)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 447, in parse
+    filter_expression = self.compile_filter(token.contents)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 563, in compile_filter
+    return FilterExpression(token, self)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 658, in __init__
+    self.args_check(filter_name, filter_func, args)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/template/base.py", line 718, in args_check
+    (name, alen - dlen, plen))
+django.template.exceptions.TemplateSyntaxError: split_filter requires 1 arguments, 2 provided
+[23/Oct/2021 13:02:12] ERROR [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 500 228524
+[23/Oct/2021 13:02:40] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:02:41] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:03:41] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:03:42] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:03:46] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:03:46] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:03:48] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:03:49] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:04:13] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:04:13] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:04:17] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:04:17] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:04:39] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:04:40] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:04:42] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:04:42] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:05:11] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:05:11] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:05:13] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:05:13] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:05:38] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:05:39] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:05:42] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:05:42] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:06:03] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:06:04] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:06:06] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:06:06] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:06:20] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:06:20] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:06:28] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:06:28] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:06:32] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:06:32] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:07:22] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:07:23] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:07:29] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 13:07:29] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:12:44] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 13:12:47] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:14:46] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:14:50] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 13:14:51] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:15:16] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:15:19] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:15:23] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13317
+[23/Oct/2021 13:15:23] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:15:57] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:15:58] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:15:59] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/templatetags/customfilters.py changed, reloading.
+[23/Oct/2021 13:15:59] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:16:03] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14767
+[23/Oct/2021 13:16:03] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:16:32] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 13:16:32] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:16:37] INFO [django.server:154] "GET /admin/ HTTP/1.1" 302 0
+[23/Oct/2021 13:16:37] INFO [django.server:154] "GET /admin/ HTTP/1.1" 302 0
+[23/Oct/2021 13:16:38] INFO [django.server:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+[23/Oct/2021 13:16:38] INFO [django.server:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+[23/Oct/2021 13:16:38] INFO [django.server:154] "GET /static/admin/css/login.css HTTP/1.1" 304 0
+[23/Oct/2021 13:16:38] INFO [django.server:154] "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+[23/Oct/2021 13:16:38] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+[23/Oct/2021 13:16:38] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+[23/Oct/2021 13:16:56] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[23/Oct/2021 13:16:56] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 9911
+[23/Oct/2021 13:16:56] INFO [django.server:154] "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+[23/Oct/2021 13:16:57] INFO [django.server:154] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:16:57] INFO [django.server:154] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:16:57] INFO [django.server:154] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:16:57] INFO [django.server:154] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6309
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:02] INFO [django.server:154] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:03] INFO [django.server:154] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 271751
+[23/Oct/2021 13:17:03] INFO [django.server:154] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[23/Oct/2021 13:17:03] INFO [django.server:154] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /admin/orders/userorder/33/change/ HTTP/1.1" 200 6750
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20274
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:17:05] INFO [django.server:154] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:17:15] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6309
+[23/Oct/2021 13:17:15] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:17] INFO [django.server:154] "GET /admin/orders/userorder/add/ HTTP/1.1" 200 6424
+[23/Oct/2021 13:17:17] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:20] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6309
+[23/Oct/2021 13:17:20] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:24] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13179
+[23/Oct/2021 13:17:25] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:17:30] INFO [django.server:154] "GET /admin/orders/userorder/26/change/ HTTP/1.1" 200 6744
+[23/Oct/2021 13:17:30] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:33] INFO [django.server:154] "POST /admin/orders/userorder/26/change/ HTTP/1.1" 302 0
+[23/Oct/2021 13:17:33] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6545
+[23/Oct/2021 13:17:33] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:17:33] INFO [django.server:154] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+[23/Oct/2021 13:17:35] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 13177
+[23/Oct/2021 13:17:35] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:20:03] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 13:24:10] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:26:18] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12535
+[23/Oct/2021 13:26:18] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:26:27] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12535
+[23/Oct/2021 13:26:27] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:26:42] INFO [django.server:154] "GET /admin/orders/userorder/33/change/ HTTP/1.1" 200 7328
+[23/Oct/2021 13:26:42] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:26:53] INFO [django.server:154] "POST /admin/orders/userorder/33/change/ HTTP/1.1" 200 7490
+[23/Oct/2021 13:26:53] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:27:01] INFO [django.server:154] "POST /admin/orders/userorder/33/change/ HTTP/1.1" 302 0
+[23/Oct/2021 13:27:01] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6544
+[23/Oct/2021 13:27:02] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:27:03] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12617
+[23/Oct/2021 13:27:04] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:27:23] INFO [django.server:154] "GET /admin/orders/userorder/27/change/ HTTP/1.1" 200 7319
+[23/Oct/2021 13:27:23] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:27:32] INFO [django.server:154] "POST /admin/orders/userorder/27/change/ HTTP/1.1" 302 0
+[23/Oct/2021 13:27:32] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6545
+[23/Oct/2021 13:27:32] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:27:34] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12697
+[23/Oct/2021 13:27:34] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:27:57] INFO [django.server:154] "GET /admin/orders/userorder/28/change/ HTTP/1.1" 200 7323
+[23/Oct/2021 13:27:57] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:28:06] INFO [django.server:154] "POST /admin/orders/userorder/28/change/ HTTP/1.1" 302 0
+[23/Oct/2021 13:28:06] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6545
+[23/Oct/2021 13:28:06] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:28:07] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12774
+[23/Oct/2021 13:28:07] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:28:21] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12786
+[23/Oct/2021 13:28:21] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:28:38] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12801
+[23/Oct/2021 13:28:38] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:28:42] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12801
+[23/Oct/2021 13:28:42] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:28:44] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12801
+[23/Oct/2021 13:28:46] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12801
+[23/Oct/2021 13:29:19] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 13:29:19] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:29:19] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:29:19] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 13:30:21] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/urls.py changed, reloading.
+[23/Oct/2021 13:30:25] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:32:43] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:32:45] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12801
+[23/Oct/2021 13:32:46] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:32:49] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12801
+[23/Oct/2021 13:32:49] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:33:35] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12827
+[23/Oct/2021 13:33:35] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:33:36] ERROR [django.request:228] Internal Server Error: /dashboard/complete-order/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/dashboard/views.py", line 101, in CompleteOrder
+    objects = UserOrder.objects.filter(username = request.session['table_name']).update(status='Completed')
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/contrib/sessions/backends/base.py", line 54, in __getitem__
+    return self._session[key]
+KeyError: 'table_name'
+[23/Oct/2021 13:33:36] ERROR [django.server:154] "GET /dashboard/complete-order/ HTTP/1.1" 500 113535
+[23/Oct/2021 13:34:41] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/urls.py changed, reloading.
+[23/Oct/2021 13:34:41] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:34:55] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 13:34:55] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:35:07] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:35:07] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:35:09] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 13:35:10] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:35:11] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12830
+[23/Oct/2021 13:35:11] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:35:16] INFO [django.server:154] "GET /dashboard/complete-order/28/ HTTP/1.1" 302 0
+[23/Oct/2021 13:35:16] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12697
+[23/Oct/2021 13:35:26] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 13:35:26] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:35:35] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10106
+[23/Oct/2021 13:35:35] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10106
+[23/Oct/2021 13:35:38] INFO [django.server:154] "GET /admin/orders/userdetails/ HTTP/1.1" 200 10265
+[23/Oct/2021 13:35:38] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:35:40] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10106
+[23/Oct/2021 13:35:41] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6309
+[23/Oct/2021 13:35:41] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:35:51] INFO [django.server:154] "GET /admin/orders/userorder/29/change/ HTTP/1.1" 200 7315
+[23/Oct/2021 13:35:51] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:35:53] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6309
+[23/Oct/2021 13:35:56] INFO [django.server:154] "GET /admin/orders/userorder/29/change/ HTTP/1.1" 200 7315
+[23/Oct/2021 13:35:56] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:35:57] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6309
+[23/Oct/2021 13:35:59] INFO [django.server:154] "GET /admin/orders/userorder/28/change/ HTTP/1.1" 200 7357
+[23/Oct/2021 13:35:59] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:36:04] INFO [django.server:154] "POST /admin/orders/userorder/28/change/ HTTP/1.1" 302 0
+[23/Oct/2021 13:36:04] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 6545
+[23/Oct/2021 13:36:04] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:36:06] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 12777
+[23/Oct/2021 13:36:06] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:36:24] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 13:36:24] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:36:24] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:36:38] INFO [django.server:154] "GET /?table=table5 HTTP/1.1" 200 6040
+[23/Oct/2021 13:36:38] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:36:38] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:36:45] INFO [django.server:154] "GET /?table=table15 HTTP/1.1" 200 6040
+[23/Oct/2021 13:36:45] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:36:45] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:39:17] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:39:17] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:40:18] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:40:19] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:40:38] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:40:39] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:40:48] INFO [django.server:154] "GET /?table=table15 HTTP/1.1" 200 6040
+[23/Oct/2021 13:40:48] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:40:48] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:40:48] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "POST /?table=table15 HTTP/1.1" 302 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:40:58] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:40:58] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/veg-kadai-2-500x500.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/vegetable-soup-500x375_VBfctxI.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/people-say-no-to-non-veg.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/75356205.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/istockphoto-1083487948-612x612.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:40:58] INFO [django.server:154] "GET /media/uploads/category/download.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 13:41:02] INFO [django.server:154] "GET /menu_list/7/ HTTP/1.1" 200 5531
+[23/Oct/2021 13:41:02] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:41:02] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:41:06] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:41:06] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:41:06] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:41:09] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 13:41:11] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 8985
+[23/Oct/2021 13:41:11] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:41:11] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:43:40] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14703
+[23/Oct/2021 13:43:43] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:43:53] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 14454
+[23/Oct/2021 13:43:54] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:44:44] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:44:45] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:44:45] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:44:47] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 8985
+[23/Oct/2021 13:44:47] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:44:47] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:44:51] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:44:51] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:44:51] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:44:53] INFO [django.server:154] "GET /menu_list/5/ HTTP/1.1" 200 5095
+[23/Oct/2021 13:44:53] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:44:53] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:44:56] INFO [django.server:154] "GET /menu_list/6/ HTTP/1.1" 200 5959
+[23/Oct/2021 13:44:56] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:44:56] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:45:01] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:45:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:45:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:45:03] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 13:45:05] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 9451
+[23/Oct/2021 13:45:05] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:45:05] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:45:16] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 5818
+[23/Oct/2021 13:45:16] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:45:16] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:45:27] ERROR [django.request:228] Internal Server Error: /reviews/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 172, in post
+    return super().post(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 142, in post
+    return self.form_valid(form)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 138, in form_valid
+    objects = UserOrder.objects.filter(username = request.session['table_name']).update(status='Pending')
+NameError: name 'request' is not defined
+[23/Oct/2021 13:45:27] ERROR [django.server:154] "POST /reviews/ HTTP/1.1" 500 128548
+[23/Oct/2021 13:45:48] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:45:51] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:45:56] INFO [django.server:154] "POST /reviews/ HTTP/1.1" 302 0
+[23/Oct/2021 13:45:56] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 13:45:57] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:45:57] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:45:59] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 15012
+[23/Oct/2021 13:46:00] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:46:16] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:46:17] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:46:21] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 15012
+[23/Oct/2021 13:46:22] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:46:32] INFO [django.server:154] "GET /?table=table5 HTTP/1.1" 200 6040
+[23/Oct/2021 13:46:32] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:46:32] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:46:40] INFO [django.server:154] "POST /?table=table5 HTTP/1.1" 302 0
+[23/Oct/2021 13:46:41] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:46:41] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:46:41] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:46:43] INFO [django.server:154] "GET /menu_list/6/ HTTP/1.1" 200 5959
+[23/Oct/2021 13:46:43] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:46:43] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:46:48] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:46:48] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:46:48] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:46:51] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 13:46:52] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 9915
+[23/Oct/2021 13:46:52] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:46:52] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:46:56] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 5818
+[23/Oct/2021 13:46:56] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:46:56] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:47:02] INFO [django.server:154] "POST /reviews/ HTTP/1.1" 302 0
+[23/Oct/2021 13:47:02] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 13:47:02] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:47:02] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:47:04] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 15620
+[23/Oct/2021 13:47:04] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:47:30] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10155
+[23/Oct/2021 13:47:30] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10155
+[23/Oct/2021 13:47:33] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 7109
+[23/Oct/2021 13:47:33] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:47:37] INFO [django.server:154] "GET /admin/orders/userorder/36/change/ HTTP/1.1" 200 7371
+[23/Oct/2021 13:47:38] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:48:04] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 13:48:07] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 13:48:09] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 7109
+[23/Oct/2021 13:48:12] INFO [django.server:154] "POST /admin/orders/userorder/ HTTP/1.1" 200 5295
+[23/Oct/2021 13:48:12] INFO [django.server:154] "GET /static/admin/js/cancel.js HTTP/1.1" 304 0
+[23/Oct/2021 13:48:20] INFO [django.server:154] "POST /admin/orders/userorder/ HTTP/1.1" 302 0
+[23/Oct/2021 13:48:20] INFO [django.server:154] "GET /admin/orders/userorder/ HTTP/1.1" 200 3327
+[23/Oct/2021 13:48:20] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 13:48:23] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 10333
+[23/Oct/2021 13:48:23] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:48:31] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 13:48:32] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:32] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:48:36] INFO [django.server:154] "GET /?table=table5 HTTP/1.1" 200 6040
+[23/Oct/2021 13:48:36] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:36] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:48:46] INFO [django.server:154] "POST /?table=table5 HTTP/1.1" 302 0
+[23/Oct/2021 13:48:46] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:48:46] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:46] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:48:47] INFO [django.server:154] "GET /menu_list/6/ HTTP/1.1" 200 5959
+[23/Oct/2021 13:48:47] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:48:47] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:51] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:48:51] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:51] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:48:53] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 13:48:55] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 5691
+[23/Oct/2021 13:48:55] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:48:55] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:57] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:48:57] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:48:57] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:49:00] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 5691
+[23/Oct/2021 13:49:00] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:49:00] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:49:01] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 5818
+[23/Oct/2021 13:49:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:49:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:49:10] INFO [django.server:154] "POST /reviews/ HTTP/1.1" 302 0
+[23/Oct/2021 13:49:10] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 13:49:10] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:49:10] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:49:12] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 10946
+[23/Oct/2021 13:49:13] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:50:46] INFO [django.server:154] "GET /?table=table51 HTTP/1.1" 200 6040
+[23/Oct/2021 13:50:46] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:50:46] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:50:46] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "POST /?table=table51 HTTP/1.1" 302 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:50:56] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:50:56] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/vegetable-soup-500x375_VBfctxI.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/people-say-no-to-non-veg.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/veg-kadai-2-500x500.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/75356205.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/istockphoto-1083487948-612x612.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:56] INFO [django.server:154] "GET /media/uploads/category/download.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 13:50:58] INFO [django.server:154] "GET /menu_list/6/ HTTP/1.1" 200 5959
+[23/Oct/2021 13:50:58] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:50:58] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:51:01] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:51:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:51:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:51:04] INFO [django.server:154] "GET /menu_list/9/ HTTP/1.1" 200 5925
+[23/Oct/2021 13:51:04] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:51:04] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:51:08] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:51:08] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:51:08] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:51:21] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 10946
+[23/Oct/2021 13:51:21] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:51:27] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 13:51:31] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 6154
+[23/Oct/2021 13:51:31] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:51:31] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:51:34] INFO [django.server:154] "GET /dashboard/current-order-list/ HTTP/1.1" 200 11500
+[23/Oct/2021 13:51:34] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 13:51:51] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:51:51] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:51:51] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:51:54] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 6154
+[23/Oct/2021 13:51:54] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:51:54] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:52:01] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 13:52:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:52:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:52:02] INFO [django.server:154] "GET /menu_list/6/ HTTP/1.1" 200 5959
+[23/Oct/2021 13:52:02] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:52:02] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:52:07] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 13:52:07] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 13:52:07] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:52:21] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 6154
+[23/Oct/2021 13:52:21] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 13:52:21] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 15:28:35] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 15:28:42] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 15:28:42] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 15:28:42] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 15:28:42] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 15:28:42] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 15:28:42] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3825
+[23/Oct/2021 15:29:17] INFO [django.server:154] "GET /categories/ HTTP/1.1" 302 0
+[23/Oct/2021 15:29:17] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 15:29:17] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 15:29:17] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 16:20:35] INFO [django.server:154] "GET /reviews HTTP/1.1" 301 0
+[23/Oct/2021 16:20:36] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6292
+[23/Oct/2021 16:20:36] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 16:20:36] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:20:36] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6292
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/animate.css HTTP/1.1" 200 71552
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/fonts/flaticon/font/flaticon.css HTTP/1.1" 200 1131
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/flexslider.css HTTP/1.1" 200 6864
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/owl.carousel.min.css HTTP/1.1" 200 3630
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/icomoon.css HTTP/1.1" 200 28702
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 200 35550
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/bootstrap.css HTTP/1.1" 200 134656
+[23/Oct/2021 16:22:14] INFO [django.server:154] "GET /static/oats/css/owl.theme.default.min.css HTTP/1.1" 200 2315
+[23/Oct/2021 16:22:14] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 16:22:14] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/bootstrap.min.js HTTP/1.1" 200 36816
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/sticky-kit.min.js HTTP/1.1" 200 3268
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/jquery.min.js HTTP/1.1" 200 84380
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/owl.carousel.min.js HTTP/1.1" 200 40401
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/jquery.countTo.js HTTP/1.1" 200 3760
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 155564
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/jquery.flexslider-min.js HTTP/1.1" 200 22342
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/main.js HTTP/1.1" 200 5346
+[23/Oct/2021 16:22:15] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 200 6063
+[23/Oct/2021 16:22:15] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 16:22:15] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3825
+[23/Oct/2021 16:25:39] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 16:25:39] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:25:39] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 16:25:39] INFO [django.server:154] "GET /static/oats/css/bootstrap.css.map HTTP/1.1" 200 76082
+[23/Oct/2021 16:27:01] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/urls.py changed, reloading.
+[23/Oct/2021 16:27:05] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:29:56] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 16:29:57] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:33:28] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 16:33:29] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:34:43] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:34:45] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 22
+[23/Oct/2021 16:34:45] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 16:34:45] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3825
+[23/Oct/2021 16:35:08] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 16:35:09] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:35:39] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/urls.py changed, reloading.
+[23/Oct/2021 16:35:39] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:36:02] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:36:07] ERROR [django.request:228] Internal Server Error: /reviews/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 168, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 66, in get_context_data
+    kwargs['form'] = self.get_form()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 32, in get_form
+    form_class = self.get_form_class()
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 93, in get_form_class
+    model = self.get_queryset().model
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/detail.py", line 73, in get_queryset
+    'cls': self.__class__.__name__
+django.core.exceptions.ImproperlyConfigured: GetUserReview is missing a QuerySet. Define GetUserReview.model, GetUserReview.queryset, or override GetUserReview.get_queryset().
+[23/Oct/2021 16:36:07] ERROR [django.server:154] "GET /reviews/ HTTP/1.1" 500 140076
+[23/Oct/2021 16:36:30] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 16:36:30] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:36:32] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6690
+[23/Oct/2021 16:36:32] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:36:32] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 16:36:33] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 16:36:49] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /ratings/
+[23/Oct/2021 16:36:49] WARNING [django.server:154] "POST /ratings/ HTTP/1.1" 403 2513
+[23/Oct/2021 16:37:13] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:37:13] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 16:37:22] INFO [django.server:154] "GET /ratings/ HTTP/1.1" 200 22
+[23/Oct/2021 16:40:40] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 16:40:41] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:41:18] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 16:41:18] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:41:31] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 16:41:31] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:42:52] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:42:53] INFO [django.server:154] "GET /admin/ HTTP/1.1" 302 0
+[23/Oct/2021 16:42:53] INFO [django.server:154] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1823
+[23/Oct/2021 16:43:07] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1984
+[23/Oct/2021 16:43:13] INFO [django.server:154] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[23/Oct/2021 16:43:13] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 9904
+[23/Oct/2021 16:43:29] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/admin.py changed, reloading.
+[23/Oct/2021 16:43:31] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:43:35] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:44:58] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:45:12] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10347
+[23/Oct/2021 16:45:16] INFO [django.server:154] "GET /admin/orders/addsview/ HTTP/1.1" 200 3192
+[23/Oct/2021 16:45:16] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 16:45:18] INFO [django.server:154] "GET /admin/orders/addsview/add/ HTTP/1.1" 200 4906
+[23/Oct/2021 16:45:18] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 16:56:30] INFO [django.server:154] "POST /admin/orders/addsview/add/ HTTP/1.1" 302 0
+[23/Oct/2021 16:56:32] INFO [django.server:154] "GET /admin/orders/addsview/ HTTP/1.1" 200 4544
+[23/Oct/2021 16:56:32] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 16:57:09] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 16:57:12] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:58:46] ERROR [django.request:228] Internal Server Error: /reviews/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 168, in get
+    return super().get(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/edit.py", line 133, in get
+    return self.render_to_response(self.get_context_data())
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 162, in get_context_data
+    context['video_list'] = AddsView.objects.filter(published=1)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/db/models/manager.py", line 82, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/db/models/query.py", line 408, in get
+    self.model._meta.object_name
+dashboard.models.Category.DoesNotExist: Category matching query does not exist.
+[23/Oct/2021 16:58:46] ERROR [django.server:154] "GET /reviews/ HTTP/1.1" 500 137528
+[23/Oct/2021 16:59:14] INFO [django.server:154] "GET /admin/orders/addsview/1/change/ HTTP/1.1" 200 5453
+[23/Oct/2021 16:59:14] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 16:59:25] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 16:59:28] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6822
+[23/Oct/2021 16:59:28] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:59:28] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 16:59:28] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 16:59:28] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 304 0
+[23/Oct/2021 16:59:29] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 16:59:34] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 16:59:34] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:00:28] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6754
+[23/Oct/2021 17:00:28] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:00:28] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:00:28] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:02:52] INFO [django.server:154] "GET /admin/orders/addsview/ HTTP/1.1" 200 4360
+[23/Oct/2021 17:02:52] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 17:03:08] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:03:09] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:03:32] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6993
+[23/Oct/2021 17:03:32] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:03:32] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:03:33] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:03:33] INFO [django.server:154] "GET /media/uploads/videos/VID-20211023-WA0002.mp4 HTTP/1.1" 200 5127696
+[23/Oct/2021 17:03:45] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:03:45] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:04:51] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6985
+[23/Oct/2021 17:04:51] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:04:51] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:04:51] INFO [django.server:154] "GET /media/uploads/videos/VID-20211023-WA0002.mp4 HTTP/1.1" 304 0
+[23/Oct/2021 17:04:51] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:05:30] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6979
+[23/Oct/2021 17:05:30] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:05:30] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:05:41] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6979
+[23/Oct/2021 17:05:43] INFO [django.server:154] "GET /static/oats/fonts/flaticon/font/flaticon.css HTTP/1.1" 200 1131
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/flexslider.css HTTP/1.1" 200 6864
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/animate.css HTTP/1.1" 200 71552
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 200 35550
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/owl.carousel.min.css HTTP/1.1" 200 3630
+[23/Oct/2021 17:05:44] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/bootstrap.css HTTP/1.1" 200 134656
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/owl.theme.default.min.css HTTP/1.1" 200 2315
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/css/icomoon.css HTTP/1.1" 200 28702
+[23/Oct/2021 17:05:44] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/bootstrap.min.js HTTP/1.1" 200 36816
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/jquery.flexslider-min.js HTTP/1.1" 200 22342
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/sticky-kit.min.js HTTP/1.1" 200 3268
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/jquery.min.js HTTP/1.1" 200 84380
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/owl.carousel.min.js HTTP/1.1" 200 40401
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/jquery.countTo.js HTTP/1.1" 200 3760
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/main.js HTTP/1.1" 200 5346
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 155564
+[23/Oct/2021 17:05:44] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 200 6063
+[23/Oct/2021 17:05:44] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 17:05:44] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3996
+[23/Oct/2021 17:05:53] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6993
+[23/Oct/2021 17:05:53] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:05:53] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:06:01] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6995
+[23/Oct/2021 17:06:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:06:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:06:17] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6980
+[23/Oct/2021 17:06:17] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:06:17] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:06:27] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 6995
+[23/Oct/2021 17:06:27] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:06:27] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:07:00] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7004
+[23/Oct/2021 17:07:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:07:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:07:03] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 17:07:03] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3996
+[23/Oct/2021 17:08:01] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7012
+[23/Oct/2021 17:08:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:08:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:08:08] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:08:08] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:08:16] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:08:16] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:08:16] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:08:16] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:08:31] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:08:31] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:09:36] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:09:36] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:09:36] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:09:37] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:09:39] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:09:39] INFO [django.server:154] "GET /static/oats/css/animate.css HTTP/1.1" 200 71552
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/fonts/flaticon/font/flaticon.css HTTP/1.1" 200 1131
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/css/bootstrap.css HTTP/1.1" 200 134656
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 200 35476
+[23/Oct/2021 17:09:40] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:09:40] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/css/flexslider.css HTTP/1.1" 200 6864
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/css/owl.carousel.min.css HTTP/1.1" 200 3630
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/css/owl.theme.default.min.css HTTP/1.1" 200 2315
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/jquery.min.js HTTP/1.1" 200 84380
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/jquery.flexslider-min.js HTTP/1.1" 200 22342
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/sticky-kit.min.js HTTP/1.1" 200 3268
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/jquery.countTo.js HTTP/1.1" 200 3760
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/css/icomoon.css HTTP/1.1" 200 28702
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/bootstrap.min.js HTTP/1.1" 200 36816
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 200 6063
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/main.js HTTP/1.1" 200 5346
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/js/owl.carousel.min.js HTTP/1.1" 200 40401
+[23/Oct/2021 17:09:40] INFO [django.server:154] "GET /static/oats/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 155564
+[23/Oct/2021 17:09:40] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:09:40] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 17:09:40] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3996
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/icomoon.css HTTP/1.1" 200 28702
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/flexslider.css HTTP/1.1" 200 6864
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/fonts/flaticon/font/flaticon.css HTTP/1.1" 200 1131
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/animate.css HTTP/1.1" 200 71552
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/owl.theme.default.min.css HTTP/1.1" 200 2315
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/owl.carousel.min.css HTTP/1.1" 200 3630
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/bootstrap.css HTTP/1.1" 200 134656
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 200 35524
+[23/Oct/2021 17:10:38] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/bootstrap.min.js HTTP/1.1" 200 36816
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/jquery.min.js HTTP/1.1" 200 84380
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[23/Oct/2021 17:10:38] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/sticky-kit.min.js HTTP/1.1" 200 3268
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/jquery.flexslider-min.js HTTP/1.1" 200 22342
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/owl.carousel.min.js HTTP/1.1" 200 40401
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/jquery.countTo.js HTTP/1.1" 200 3760
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/main.js HTTP/1.1" 200 5346
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 200 6063
+[23/Oct/2021 17:10:38] INFO [django.server:154] "GET /static/oats/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 155564
+[23/Oct/2021 17:10:39] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 17:10:39] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3996
+[23/Oct/2021 17:10:44] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:10:44] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:10:45] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/flexslider.css HTTP/1.1" 200 6864
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/owl.carousel.min.css HTTP/1.1" 200 3630
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/fonts/flaticon/font/flaticon.css HTTP/1.1" 200 1131
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 200 35550
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/icomoon.css HTTP/1.1" 200 28702
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/owl.theme.default.min.css HTTP/1.1" 200 2315
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/animate.css HTTP/1.1" 200 71552
+[23/Oct/2021 17:12:16] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:12:16] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/modernizr-2.6.2.min.js HTTP/1.1" 200 15413
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/css/bootstrap.css HTTP/1.1" 200 134656
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/jquery.min.js HTTP/1.1" 200 84380
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/jquery.easing.1.3.js HTTP/1.1" 200 8111
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/jquery.flexslider-min.js HTTP/1.1" 200 22342
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/jquery.waypoints.min.js HTTP/1.1" 200 8835
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/bootstrap.min.js HTTP/1.1" 200 36816
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/sticky-kit.min.js HTTP/1.1" 200 3268
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/owl.carousel.min.js HTTP/1.1" 200 40401
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/jquery.countTo.js HTTP/1.1" 200 3760
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/main.js HTTP/1.1" 200 5346
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/js/order.js HTTP/1.1" 200 6063
+[23/Oct/2021 17:12:16] INFO [django.server:154] "GET /static/oats/fonts/icomoon/icomoon.ttf?srf3rx HTTP/1.1" 200 155564
+[23/Oct/2021 17:12:17] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:12:17] WARNING [django.request:228] Not Found: /favicon.ico
+[23/Oct/2021 17:12:17] WARNING [django.server:154] "GET /favicon.ico HTTP/1.1" 404 3996
+[23/Oct/2021 17:12:28] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:12:51] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:12:57] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /ratings/
+[23/Oct/2021 17:12:57] WARNING [django.server:154] "POST /ratings/ HTTP/1.1" 403 2513
+[23/Oct/2021 17:12:57] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:12:57] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:12:57] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:12:57] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:12:57] INFO [django.server:154] "GET /media/uploads/videos/VID-20211023-WA0002.mp4 HTTP/1.1" 304 0
+[23/Oct/2021 17:13:26] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 17:13:26] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:13:31] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/models.py changed, reloading.
+[23/Oct/2021 17:13:31] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:14:15] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:14:15] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:14:21] INFO [django.server:154] "GET /categories/ HTTP/1.1" 302 0
+[23/Oct/2021 17:14:21] INFO [django.server:154] "GET / HTTP/1.1" 200 6040
+[23/Oct/2021 17:14:22] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:14:22] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:14:22] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:14:31] INFO [django.server:154] "GET /?table=table5 HTTP/1.1" 200 6040
+[23/Oct/2021 17:14:31] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:14:31] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:11] INFO [django.server:154] "POST /?table=table5 HTTP/1.1" 302 0
+[23/Oct/2021 17:15:11] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 17:15:11] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:15:11] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:11] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:11] INFO [django.server:154] "GET /media/uploads/category/vegetable-soup-500x375_VBfctxI.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:15:11] INFO [django.server:154] "GET /media/uploads/category/people-say-no-to-non-veg.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:15:11] INFO [django.server:154] "GET /media/uploads/category/veg-kadai-2-500x500.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:15:11] INFO [django.server:154] "GET /media/uploads/category/istockphoto-1083487948-612x612.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:15:12] INFO [django.server:154] "GET /media/uploads/category/75356205.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 17:15:12] INFO [django.server:154] "GET /media/uploads/category/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 200 1287553
+[23/Oct/2021 17:15:12] INFO [django.server:154] "GET /media/uploads/category/download.jpeg HTTP/1.1" 304 0
+[23/Oct/2021 17:15:13] INFO [django.server:154] "GET /menu_list/6/ HTTP/1.1" 200 5959
+[23/Oct/2021 17:15:13] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:13] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:17] INFO [django.server:154] "GET /cart/ HTTP/1.1" 200 5379
+[23/Oct/2021 17:15:17] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:17] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:19] INFO [django.server:154] "POST /checkout/ HTTP/1.1" 200 29
+[23/Oct/2021 17:15:22] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 6557
+[23/Oct/2021 17:15:22] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:22] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:25] INFO [django.server:154] "GET /categories/ HTTP/1.1" 200 9488
+[23/Oct/2021 17:15:25] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:25] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:27] INFO [django.server:154] "GET /view-orders/ HTTP/1.1" 200 6557
+[23/Oct/2021 17:15:27] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:27] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:28] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7003
+[23/Oct/2021 17:15:28] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:15:28] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:15:28] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:15:28] INFO [django.server:154] "GET /media/uploads/videos/VID-20211023-WA0002.mp4 HTTP/1.1" 304 0
+[23/Oct/2021 17:15:39] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /ratings/
+[23/Oct/2021 17:15:39] WARNING [django.server:154] "POST /ratings/ HTTP/1.1" 403 2513
+[23/Oct/2021 17:15:58] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:15:58] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:16:07] WARNING [django.security.csrf:228] Forbidden (CSRF token missing or incorrect.): /ratings/
+[23/Oct/2021 17:16:07] WARNING [django.server:154] "POST /ratings/ HTTP/1.1" 403 2513
+[23/Oct/2021 17:16:15] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:16:15] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:17:00] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7100
+[23/Oct/2021 17:17:01] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:17:01] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:17:01] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:17:09] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 130, in GetUserRatings
+    print(rating)
+UnboundLocalError: local variable 'rating' referenced before assignment
+[23/Oct/2021 17:17:09] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29025
+[23/Oct/2021 17:17:14] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:17:14] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:17:22] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 130, in GetUserRatings
+    print(rating)
+UnboundLocalError: local variable 'rating' referenced before assignment
+[23/Oct/2021 17:17:22] ERROR [django.server:154] "GET /ratings/ HTTP/1.1" 500 109408
+[23/Oct/2021 17:17:31] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:17:35] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:17:37] INFO [django.server:154] "GET /ratings/ HTTP/1.1" 200 22
+[23/Oct/2021 17:17:44] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 131, in GetUserRatings
+    print(rating)
+UnboundLocalError: local variable 'rating' referenced before assignment
+[23/Oct/2021 17:17:44] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29029
+[23/Oct/2021 17:17:49] INFO [django.server:154] "GET /ratings/ HTTP/1.1" 200 22
+[23/Oct/2021 17:17:58] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:18:02] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:18:06] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    "returned None instead." % (callback.__module__, view_name)
+ValueError: The view orders.views.GetUserRatings didn't return an HttpResponse object. It returned None instead.
+[23/Oct/2021 17:18:06] ERROR [django.server:154] "GET /ratings/ HTTP/1.1" 500 100787
+[23/Oct/2021 17:18:25] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:18:28] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:18:31] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:18:31] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29048
+[23/Oct/2021 17:18:43] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:18:43] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:18:50] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:18:50] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29048
+[23/Oct/2021 17:18:59] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:19:00] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:19:03] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:19:04] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:19:10] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:19:10] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29048
+[23/Oct/2021 17:19:22] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:19:22] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:19:27] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:19:27] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29048
+[23/Oct/2021 17:22:47] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:22:50] INFO [django.server:154] "GET /reviews/ HTTP/1.1" 200 7100
+[23/Oct/2021 17:22:50] WARNING [django.server:154] "GET /static/star-ratings/js/dist/star-ratings.min.js HTTP/1.1" 404 1858
+[23/Oct/2021 17:22:50] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:22:50] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:22:51] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:22:56] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:22:56] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29046
+[23/Oct/2021 17:23:08] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:23:08] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:23:17] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:23:17] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29046
+[23/Oct/2021 17:23:49] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:23:49] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:24:01] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:24:02] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:24:14] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:24:19] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:24:19] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29046
+[23/Oct/2021 17:24:30] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/orders/views.py changed, reloading.
+[23/Oct/2021 17:24:32] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:24:36] ERROR [django.request:228] Internal Server Error: /ratings/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/workspace/practice/oat_project/src/oat/orders/views.py", line 146, in GetUserRatings
+    ctx = {'message': message}
+UnboundLocalError: local variable 'message' referenced before assignment
+[23/Oct/2021 17:24:36] ERROR [django.server:154] "POST /ratings/ HTTP/1.1" 500 29046
+[23/Oct/2021 17:25:05] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:25:11] INFO [django.server:154] "POST /ratings/ HTTP/1.1" 200 36
+[23/Oct/2021 17:25:21] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10347
+[23/Oct/2021 17:25:21] INFO [django.server:154] "GET /admin/ HTTP/1.1" 200 10347
+[23/Oct/2021 17:25:25] INFO [django.server:154] "GET /admin/orders/getuserreview/ HTTP/1.1" 200 6413
+[23/Oct/2021 17:25:25] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 17:25:28] INFO [django.server:154] "GET /admin/orders/getuserreview/10/change/ HTTP/1.1" 200 5789
+[23/Oct/2021 17:25:28] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 17:25:37] INFO [django.server:154] "GET /admin/orders/getuserreview/ HTTP/1.1" 200 6413
+[23/Oct/2021 17:25:37] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 17:25:44] INFO [django.server:154] "POST /admin/orders/getuserreview/ HTTP/1.1" 200 3976
+[23/Oct/2021 17:25:48] INFO [django.server:154] "POST /admin/orders/getuserreview/ HTTP/1.1" 302 0
+[23/Oct/2021 17:25:48] INFO [django.server:154] "GET /admin/orders/getuserreview/ HTTP/1.1" 200 5432
+[23/Oct/2021 17:25:48] INFO [django.server:154] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[23/Oct/2021 17:27:17] INFO [django.server:154] "GET /dashboard/ HTTP/1.1" 200 39529
+[23/Oct/2021 17:27:17] INFO [django.server:154] "GET /static/custom-admin/css/style.css HTTP/1.1" 200 1113362
+[23/Oct/2021 17:27:17] INFO [django.server:154] "GET /static/custom-admin/js/jquery.dataTables.js HTTP/1.1" 200 450276
+[23/Oct/2021 17:27:18] WARNING [django.request:228] Not Found: /dashboard/js/data.txt
+[23/Oct/2021 17:27:18] WARNING [django.server:154] "GET /dashboard/js/data.txt?_=1634990237977 HTTP/1.1" 404 6639
+[23/Oct/2021 17:28:04] INFO [django.server:154] "GET /dashboard/menu-list/ HTTP/1.1" 200 14610
+[23/Oct/2021 17:28:04] INFO [django.server:154] "GET /media/uploads/menu/people-say-no-to-non-veg.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:28:04] INFO [django.server:154] "GET /media/uploads/menu/vegetable-soup-500x375_o7Z8mq2.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:28:05] INFO [django.server:154] "GET /media/uploads/menu/beverages-carbonated-drink-cold-drink-1571849.jpg HTTP/1.1" 200 1287553
+[23/Oct/2021 17:28:05] INFO [django.server:154] "GET /media/uploads/menu/vegetable-soup-500x375_5nnQjny.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:28:05] INFO [django.server:154] "GET /media/uploads/menu/default.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:28:05] INFO [django.server:154] "GET /media/uploads/menu/istockphoto-1083487948-612x612.jpg HTTP/1.1" 304 0
+[23/Oct/2021 17:28:08] INFO [django.server:154] "GET /dashboard/create-menu/ HTTP/1.1" 200 12298
+[23/Oct/2021 17:30:58] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/urls.py changed, reloading.
+[23/Oct/2021 17:30:59] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:36:39] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:36:42] INFO [django.server:154] "GET /dashboard/create-menu/ HTTP/1.1" 200 12783
+[23/Oct/2021 17:36:42] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:36:43] INFO [django.server:154] "GET /dashboard/create-menu/ HTTP/1.1" 200 12783
+[23/Oct/2021 17:36:43] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:36:48] ERROR [django.request:228] Internal Server Error: /dashboard/reviews-list/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/user/workspace/practice/oat_project/src/oat/dashboard/views.py", line 107, in get_context_data
+    self).get_context_data(*args, **kwargs)
+TypeError: super(type, obj): obj must be an instance or subtype of type
+[23/Oct/2021 17:36:48] ERROR [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 500 124431
+[23/Oct/2021 17:36:59] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 17:37:00] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:37:02] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11695
+[23/Oct/2021 17:39:08] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11853
+[23/Oct/2021 17:39:08] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:39:17] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11855
+[23/Oct/2021 17:39:17] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:39:51] WARNING [django.server:154] "GET /static/star-ratings/css/star-ratings.css HTTP/1.1" 404 1837
+[23/Oct/2021 17:39:51] WARNING [django.server:154] "GET /static/oats/js/jquery.min.map HTTP/1.1" 404 1804
+[23/Oct/2021 17:39:52] INFO [django.server:154] "GET /static/oats/css/style.css HTTP/1.1" 304 0
+[23/Oct/2021 17:40:10] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11894
+[23/Oct/2021 17:40:10] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:43:51] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 17:43:51] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:44:08] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 17:44:09] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:45:34] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:45:39] ERROR [django.request:228] Internal Server Error: /dashboard/reviews-list/
+Traceback (most recent call last):
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/home/user/Env/oat/lib/python3.6/site-packages/django/views/generic/list.py", line 157, in get
+    context = self.get_context_data()
+  File "/home/user/workspace/practice/oat_project/src/oat/dashboard/views.py", line 119, in get_context_data
+    context['avg_rating'] = self.get_avg_ratings()
+  File "/home/user/workspace/practice/oat_project/src/oat/dashboard/views.py", line 111, in get_avg_ratings
+    sum = sum + obj.ratings
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+[23/Oct/2021 17:45:39] ERROR [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 500 129966
+[23/Oct/2021 17:46:28] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 17:46:28] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:46:32] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11911
+[23/Oct/2021 17:46:32] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:46:55] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 17:46:55] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:46:57] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11911
+[23/Oct/2021 17:46:58] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:47:29] INFO [django.utils.autoreload:203] /home/user/workspace/practice/oat_project/src/oat/dashboard/views.py changed, reloading.
+[23/Oct/2021 17:47:29] INFO [django.utils.autoreload:578] Watching for file changes with StatReloader
+[23/Oct/2021 17:47:32] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11896
+[23/Oct/2021 17:47:32] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710
+[23/Oct/2021 17:48:41] INFO [django.server:154] "GET /dashboard/reviews-list/ HTTP/1.1" 200 11896
+[23/Oct/2021 17:48:41] INFO [django.server:154] "GET /static/custom-admin/images/favicon.png HTTP/1.1" 200 710

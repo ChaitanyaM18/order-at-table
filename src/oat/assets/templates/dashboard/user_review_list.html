@@ -1,0 +1,48 @@
+{% extends 'base_dashboard.html' %}
+{% load static %}
+{% load custom_tags %}
+
+{% block content %}
+<div class="content-wrapper">
+  <div class="row">
+    <div class="col-12 grid-margin stretch-card">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Review Table</h4>
+          <p class="card-description d-none">
+            Add class <code>.table</code>
+          </p>
+          <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Table No:</th>
+                  <th>Usernam</th>
+                  <th>Comment</th>
+                  <th>Rating</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for obj in review_list %}
+                <tr>
+                  <td>{{obj.table_no}}</td>
+                  <td>{{obj.username}}</td>
+                  <td>{{obj.comments}}</td>
+                  <td>{{obj.ratings}}</td>
+                </tr>
+                {% endfor %}
+              </tbody>
+              <tfoot style="background:#FFC300; color:#000">
+                <tr>
+                  <td colspan=3> Avg</td>
+                  <td> {{avg_rating}}</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

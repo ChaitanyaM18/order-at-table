@@ -19,7 +19,9 @@ class CreateUserDetail(generic.CreateView):
 
     def form_valid(self, form):
         table = self.request.GET.get('table')
+        username = form.cleaned_data.get('user_name')
         self.request.session['table_name'] = table
+        self.request.session['user_name'] = username
         print(self.request.session['table_name'])
         user = form.save(commit=False)
         user.user_table_no = table
@@ -78,11 +80,12 @@ def checkout(request):
     if request.method == 'POST':
         cart = json.loads(request.POST.get('cart'))
         price = request.POST.get('price_of_cart')
-        username = request.session['table_name']
+        username = request.session['user_name']
+        table_name = request.session['table_name']
         response_data = {}
         list_of_items = [item["item_description"] for item in cart]
 
-        order = UserOrder(username=username, order=list_of_items, price=float(price), delivered=False) #create the row entry
+        order = UserOrder(username=username, table_number=table_name, order=list_of_items, price=float(price), status='processing') #create the row entry
         order.save() #save row entry in database
 
         response_data['result'] = 'Order Recieved!'
@@ -110,7 +113,7 @@ def view_orders(request):
 
                 return render(request, "orders/orders.html", context = {"rows":rows})
             else:
-                rows = UserOrder.objects.all().filter(username = request.session['table_name']).order_by('-time_of_order')
+                rows = UserOrder.objects.all().filter(table_number = request.session['table_name']).order_by('-time_of_order')
                 return render(request, "orders/orders.html", context = {"rows":rows})
     except:
         return redirect('/')
@@ -123,14 +126,42 @@ def exit(request):
     return render(request,'orders/orders.html')
 
 
-class GetUserReview(generic.CreateView):
+def GetUserRatings(request):
+    if request.method == 'POST':
+        rating = request.POST.get('rating')
+        comments = request.POST.get('comments')
+
+        if rating == '':
+            message = 'Field cannot be empty'
+            return HttpResponse(json.dumps({'message': message}), content_type='application/json')
+        else:
+            try:
+                print(comments)
+                m = GetUserReview.objects.create(ratings=rating,comments=comments, table_no=request.session['table_name'], username=request.session['table_name'])
+                m.save()
+                message = "Successfully submited"
+
+            except Exception as e:
+                    print(e)
+            ctx = {'message': message}
+        return HttpResponse(json.dumps(ctx), content_type='application/json')
+
+
+class GetUserReviews(generic.CreateView):
     template_name = "orders/user_review.html"
     form_class = forms.UserReviewForm
     success_url = '/'
     success_message = "Sucess"
 
-    def form_valid(self, form):
-        print(form.cleaned_data)
-        form.save()
-        del self.request.session['table_name']
-        return super(GetUserReview, self).form_valid(form)
+    def get_context_data(self, *args, **kwargs):
+        context = super(GetUserReview,
+                        self).get_context_data(*args, **kwargs)
+        context['video_list'] = AddsView.objects.get(published=1)
+        return context
+#
+#     def form_valid(self, form):
+#         print(form.cleaned_data)
+#         form.save()
+#         objects = UserOrder.objects.filter(table_number = self.request.session['table_name']).update(status='pending')
+#         del self.request.session['table_name']
+#         return super(GetUserReview, self).form_valid(form)

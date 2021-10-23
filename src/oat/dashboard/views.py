@@ -5,6 +5,7 @@ from django.views import generic
 import qrcode
 import os
 from . import forms
+from orders.models import UserOrder, GetUserReview
 
 
 
@@ -83,6 +84,45 @@ class CreateMenu(generic.CreateView):
     success_url = '/dashboard/menu-list/'
     success_message = "Sucess"
 
+
+class CurrentOrderList(generic.ListView):
+    template_name = "dashboard/current_order_list.html"
+    model = UserOrder
+    context_object_name = "menu_list"
+
+    def get_context_data(self, *args, **kwargs):
+        context = super(CurrentOrderList,
+                        self).get_context_data(*args, **kwargs)
+        context['menu_list'] = UserOrder.objects.all()
+        return context
+
+
+class UserViewList(generic.ListView):
+    template_name = "dashboard/user_review_list.html"
+    model = GetUserReview
+    context_object_name = "menu_list"
+
+    def get_avg_ratings(self):
+        sum = 0
+        avg = 0
+        objects = GetUserReview.objects.all()
+        length_rating = len(objects)
+        for obj in objects:
+            sum = sum + int(obj.ratings)
+        avg = (sum/length_rating)
+        return avg
+
+    def get_context_data(self, *args, **kwargs):
+        context = super(UserViewList,
+                        self).get_context_data(*args, **kwargs)
+        context['review_list'] = GetUserReview.objects.all()
+        context['avg_rating'] = self.get_avg_ratings()
+        return context
+
+
+def CompleteOrder(request, pk):
+    objects = UserOrder.objects.filter(id=pk).update(status='completed')
+    return redirect('dashboard:current_list')
 
 def generateQr(request):
     qr_images = []
